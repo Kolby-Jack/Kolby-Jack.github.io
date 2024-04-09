@@ -1,0 +1,243 @@
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #5d5c31, #8c2b32);
+}
+
+header {
+    background-color: #5d5c31;
+    color: black;
+    height: 120px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 3em;
+}
+
+header a:link {
+    color: black;
+    text-decoration: none;
+    transition: 3s ease-out;
+}
+
+header a:visited {
+    Color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    font-weight: bold;
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 160px;
+}
+
+nav ul {
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    transition: 2s linear;
+}
+
+nav a:link {
+    color: #8c2b32;
+    text-shadow: 1px 1px #5d5c31;
+}
+
+nav a:visited {
+    color: #9d2b32;
+    text-shadow: 1px 1px #5d5c31;
+}
+
+nav a:hover {
+    color: white;
+    text-shadow: 1px 1px #5d5c31;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-family: georgia, "Times New Roman", serif;
+    margin-top: 0;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+}
+
+h2 {
+    color: black;
+    font-family: georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px #5d5c31;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-family: georgia, "Times New Roman", serif;
+}
+
+dt {
+    color: black;
+}
+
+.book {
+    color: black;
+    font-weight: bold;
+}
+
+main ul {
+    list-style: square;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+footer {
+    font-family: georgia, "times New Roman", serif;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    padding: 2em;
+    background-color: #5d5c31;
+    margin-left: 190px;
+}
+
+#wrapper {
+    background-color: #8c2b32;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 980px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px black;
+    border: 3px solid black;
+    color: black;
+    background-image: url(stackofbook.jpg);
+    background-repeat: repeat;
+}
+
+main {
+    background-color: #8c2b32;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    display: block;
+    margin-left: 190px;
+    overflow: auto;
+}
+
+#homehero {
+    height: 300px;
+    background-image: url(openbook.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+#productshero {
+    height: 300px;
+    background-image: url(books.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-right: 190px;
+}
+
+#orderhero {
+    height: 100px;
+    background-image: url(topbook.jpg);
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    margin-left: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+a:link {
+    color: #8c2b32;
+    text-shadow: 1px 1px black;
+}
+
+a:visited {
+    color: #9d2b32;
+    text-shadow: 1px 1px black;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+table {
+    border: solid 2px black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 0.5em;
+    border: solid 2px black;
+    text-align: center;
+}
+
+th {
+    padding: 0.5em;
+    border: solid 2px black;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #5d5c31;
+}
+
+#special {
+    clear: both;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 20px;
+    background-color: #5d5c31;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+    background-color: #5d5c31;
+}
+
+#submit {
+    margin-left: 140px;
+}
